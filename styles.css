@@ -1,0 +1,452 @@
+/* * {
+}
+body {
+} */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+.wrapper {
+  margin: auto;
+  padding: 0px;
+  width: 80%;
+  background-color: white;
+  font-family: 'Roboto Slab';
+/*     'Roboto Slab'; */
+  border: #ccc;
+}
+
+.addPadMar {
+  padding: 0px;
+  margin: 0px;
+}
+
+.banner {
+  background-image: url(http://gdurl.com/TZUB);
+  height: 30em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border: #ccc;
+}
+
+.wrapCarFeature {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+.wrapCarFeature #feature {
+  padding-top: 20px;
+  display: inline;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.wrapCar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+
+.car {
+  grid-template-columns: 1fr;
+  display: grid;
+  margin: 5px;
+  padding: 0px 5px;
+}
+
+.wrapCar img {
+  width: 100%;
+  padding-left: 0px 0px;
+}
+
+.car .carBrand {
+  background-color: #eee;
+  text-align: left;
+  display: block;
+  margin: 0px;
+  padding: 3px;
+}
+
+.banner #menuLine {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  width: 100%;
+  margin: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#highlight {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  padding-top: 50px;
+  padding-left: 10px;
+  
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
+/*   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); */
+}
+.menu li{
+  dispaly:block;
+   margin:5px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style-type: none;
+  font-size: 20px;
+  padding-top: 110px;
+  padding-right :10px;
+  color: white;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.event {
+  display: flex;
+  padding: 0px;
+  color: #232426;
+  margin-top: 10px;
+}
+
+.grapEvent {
+  grid-template-columns: 1fr 4fr 4fr 1fr;
+  display: grid;
+  grid-gap: 15px;
+}
+
+#upcomingEvent {
+  margin-top: 10px;
+  grid-column: 2/3;
+}
+
+.upcomingShow {
+
+}
+
+#getTicket {
+  grid-column: 3/4;
+  margin-top: 10px;
+}
+
+.upcomingShowPrice {
+  display: block;
+}
+
+.priceTitle {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.priceUntil {
+  font-size: 20px;
+  text-align: center;
+}
+
+.eventList {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  justify-content: center;
+  border: 1px solid #b8bdc4;
+}
+
+.upcomingTitle {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.eventDate {
+  display: grid;
+  grid-column: 1/2;
+  margin: 1px;
+}
+
+.eventTitle {
+  margin: 5px;
+}
+.eventDetail {
+  background-color: #eee;
+  text-align: left;
+  grid-column: 2/3;
+  padding-left: 10px;
+}
+.eventPlace {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+.month {
+  color: red;
+  font-weight: bold;
+  background-color: #eee;
+  text-align: center;
+}
+.day {
+  font-weight: bold;
+  background-color: #eee;
+  text-align: center;
+}
+
+ .price {
+
+   display: flex; 
+   flex-direction: column;
+   height: 84%;
+}
+
+.grapPrice {
+  background-color: #eee;
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  justify-content: center;
+  height: 50%;
+  margin-bottom: 7px;
+}
+
+.grapRegPrice {
+  background-color: #eee;
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  height: 50%;
+  margin-top:7px;
+}
+.earlyBird {
+  grid-column: 2/5;
+  align-items: center; 
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.regularBird {
+  grid-column: 2/5;
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+	flex-direction: column;
+}
+.priceTitle {
+  line-height: 1px;
+}
+.priceUntil {
+  font-size: 11px;
+  line-height: 2px;
+  margin-top: 0px;
+}
+
+.buyButton {
+  width: 140px;
+  height: 30px;
+  color: #fff;
+  background-color: #4b9e55;
+}
+
+.regPriceTitle {
+  line-height: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9aa0a0;
+}
+.regPriceUntil {
+  line-height: 1px;
+  font-size: 11px;
+  margin-top: 0px;
+  color: #9aa0a0;
+}
+
+.regularBuyButton {
+  width: 140px;
+  height: 30px;
+  color: #fff;
+  background-color: #c1c1c1;
+}
+
+
+
+#footer {
+  display: flex;
+  background-color: #333333;
+  justify-content: space-between;
+  color: white;
+  height: auto;
+  padding: 20px auto;
+  margin: 20px auto;
+}
+
+#footerText {
+  padding: 20px 10px;
+}
+
+#socialIcon i {
+  margin: 10px;
+  padding-top: 6px;
+}
+
+
+.nav-toggle {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.nav-toggle:focus ~ .nav-toggle-label {
+  outline: 3px solid rgba(lightblue, .75);
+}
+
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 20px 0px 0px;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+  top: 7px;
+}
+
+.nav-toggle-label nav {
+  text-align: left;
+  background: var(--background);
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.nav-toggle:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media screen and (min-width: 800px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+
+  .banner{
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  }
+
+  .nav-toggle-label{
+  	grid-column: 2/3;
+  }
+  
+   nav {
+    
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    
+    display: flex;
+    align-items: left;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+ nav li {
+    margin-top: 0px
+    margin-left: -20px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  
+  nav a {
+    opacity: 1;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    transform: scale(1,1);
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+	.menu{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+@media screen and (max-width: 650px) {
+          
+
+            .wrapCar {
+            	display: flex;
+            	flex-direction: column;
+            }
+
+            .grapEvent{
+            	display: flex;
+            	flex-direction: column;
+            }
